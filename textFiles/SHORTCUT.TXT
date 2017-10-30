@@ -1,0 +1,19 @@
+To...
+
+ Deal a new card...........................Ctrl+D
+                             (or click on the deck)
+
+ Move a card to the home pile
+    ...double click on the card.
+  
+ Move a sequence of cards to the home pile
+    ...double click on the topmost card in the
+       sequence you want to move; the whole 
+       sequence (up to the card you clicked)
+       will go to the home pile (only if it is
+       valid, of course!).
+                                      
+ Quit or Exit (same thing).......Ctrl+Q or Ctrl+X
+
+ Start a new game..........................Ctrl+N
+\

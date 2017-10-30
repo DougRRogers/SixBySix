@@ -1,0 +1,222 @@
+//Microsoft App Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Game"
+    BEGIN
+        MENUITEM "&New \tCtrl+N",               ID_GAME_NEW
+        MENUITEM "E&xit\tCtrl+X",               ID_GAME_EXIT
+    END
+    POPUP "&Deck"
+    BEGIN
+        MENUITEM "&Deal Card\tCtrl+D",          ID_DECK_DEALCARD
+        MENUITEM "Card &Symbols\tCtrl+S",       ID_DECK_CARDSYMBOLS
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "Show &Click Count",           IDM_OPTIONS_SHOWCLICKS
+        , CHECKED
+        MENUITEM "Show Elapsed &Time",          IDM_OPTIONS_SHOWTIME
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Tips and Strategy...",       IDM_HELP_NOTESANDTIPS
+        MENUITEM "Short Cut &Keys...",          IDM_HELP_SHORTCUTKEYS
+        MENUITEM "&Rules of the Game...",       IDM_HELP_RULESOFGAME
+        MENUITEM "&About Six By Six...",        IDM_HELP_ABOUT
+    END
+END
+
+#ifdef APSTUDIO_INVOKED
+//////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR1 ACCELERATORS DISCARDABLE 
+BEGIN
+    "D",            ID_DECK_DEALCARD,       VIRTKEY,CONTROL, NOINVERT
+    "N",            ID_GAME_NEW,            VIRTKEY,CONTROL, NOINVERT
+    "Q",            ID_GAME_EXIT,           VIRTKEY,CONTROL, NOINVERT
+    "S",            ID_DECK_CARDSYMBOLS,    VIRTKEY,CONTROL, NOINVERT
+    "X",            ID_GAME_EXIT,           VIRTKEY,CONTROL, NOINVERT
+END
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+HELP_ABOUTDLG DIALOG DISCARDABLE  20, 20, 142, 147
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "System"
+BEGIN
+    CTEXT           "Six By Six",IDC_ABOUT_APPNAME,46,5,65,8
+    ICON            IDI_SIXBYSIX_ICON,-1,5,15,18,20
+    CTEXT           "Created in the beautiful Sierras!",IDC_ABOUT_ONELINER,
+                    25,15,110,8
+    DEFPUSHBUTTON   "&OK",IDOK,55,130,32,14,WS_GROUP
+    CTEXT           "Doug Rogers, Aug. 1995",IDC_ABOUT_NAMEANDDATE,36,35,90,
+                    8,NOT WS_GROUP
+    CTEXT           "Version 1.00",IDD_VERSION_NUM,47,25,65,8
+    EDITTEXT        IDC_ABOUT_ADDRESS,4,50,135,75,ES_MULTILINE | ES_READONLY | 
+                    NOT WS_BORDER
+END
+
+HELP_SHORTCUTSDLG DIALOG DISCARDABLE  15, 25, 191, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Six By Six - Short Cut Keys"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,71,155,50,14
+    EDITTEXT        IDC_SHORTCUTS_TEXT,13,10,166,137,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY
+END
+
+HELP_RULESOFGAMEDLG DIALOG DISCARDABLE  3, 25, 206, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Six By Six - Rules of the Game"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,78,155,50,14
+    EDITTEXT        IDC_RULESOFGAME_TEXT,8,10,191,137,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+HELP_NOTESANDTIPSDLG DIALOG DISCARDABLE  3, 25, 206, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Six By Six - Tips and Strategy"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,78,155,50,14
+    EDITTEXT        IDC_NANDT_TEXT,8,10,191,137,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+SHORTCUTSTEXT TEXT MOVEABLE PURE "SHORTCUT.TXT"
+NOTESANDTIPSTEXT TEXT MOVEABLE PURE "NTSANDTP.TXT"
+RULESOFGAMETEXT TEXT MOVEABLE PURE "GAMRULES.TXT"
+ABOUTADDRESSTEXT TEXT MOVEABLE PURE "ABT_ADDR.TXT"
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR1             CURSOR  DISCARDABLE     "SIXBYSIX.CUR"
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+IDI_SIXBYSIX_ICON       ICON    DISCARDABLE     "SIXBYSIX.ICO"
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SUIT_SYMBOLS        BITMAP  DISCARDABLE     "SUITSYMS.BMP"
+IDB_SMALL_CLUB          BITMAP  DISCARDABLE     "SML_CLUB.BMP"
+IDB_SMALL_DIAM          BITMAP  DISCARDABLE     "SML_DIAM.BMP"
+IDB_SMALL_HEART         BITMAP  DISCARDABLE     "SML_HART.BMP"
+IDB_SMALL_SPADE         BITMAP  DISCARDABLE     "SML_SPAD.BMP"
+IDB_ACE_CLUB            BITMAP  DISCARDABLE     "ACE_CLUB.BMP"
+IDB_ACE_SPADE           BITMAP  DISCARDABLE     "ACE_SPAD.BMP"
+IDB_ACE_DIAM            BITMAP  DISCARDABLE     "ACE_DIAM.BMP"
+IDM_ACE_HEART           BITMAP  DISCARDABLE     "ACE_HART.BMP"
+IDB_CARD2               BITMAP  DISCARDABLE     "CARD2.BMP"
+IDB_CARD3               BITMAP  DISCARDABLE     "CARD3.BMP"
+IDB_CARD4               BITMAP  DISCARDABLE     "CARD4.BMP"
+IDB_CARD5               BITMAP  DISCARDABLE     "CARD5.BMP"
+IDB_CARD6               BITMAP  DISCARDABLE     "CARD6.BMP"
+IDB_CARD7               BITMAP  DISCARDABLE     "CARD7.BMP"
+IDB_CARD8               BITMAP  DISCARDABLE     "CARD8.BMP"
+IDB_CARD9               BITMAP  DISCARDABLE     "CARD9.BMP"
+IDB_CARD10              BITMAP  DISCARDABLE     "CARD10.BMP"
+IDB_JACK                BITMAP  DISCARDABLE     "JACK.BMP"
+IDB_KING                BITMAP  DISCARDABLE     "KING.BMP"
+IDB_QUEEN               BITMAP  DISCARDABLE     "QUEEN.BMP"
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NANDTTEXT_RESNAME   "NOTESANDTIPSTEXT"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHORTCUTS_RESNAME   "SHORTCUTSTEXT"
+    IDS_RULESOFGAME_RESNAME "RULESOFGAMETEXT"
+    IDS_ABOUTADDRES_RESNAME "ABOUTADDRESSTEXT"
+END
+
+
+#ifndef APSTUDIO_INVOKED
+////////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

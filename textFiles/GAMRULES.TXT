@@ -1,0 +1,131 @@
+Rules of the Game:
+----------------------
+
+1. The goal is to move all the cards from the
+    table to the four "home piles" at the top
+    of the layout.
+                      
+2. Every new card dealt from the deck initially
+	 goes onto the first column.  From there it
+	 might be moved to another column, but it
+	 doesn't have to move.
+	 
+2. Cards can ONLY be placed on the bottom of
+    a column, and must follow descending numerical
+    sequence (eg. a 6 goes on a 7, but a 7 can't 
+    go on a 6), but they can be of ANY suit -they
+    do not have to be the same suit as the card
+    they are landing on, nor do they have to 
+    alternate colors.
+   
+3. Only "free" cards at the bottom of the columns
+    can be moved.  Cards in the middle of a column
+    are "trapped" until the cards below are 
+    removed.  But if the cards at the bottom of a
+    column are in sequence AND ALL OF THE SAME
+    SUIT then they can be moved together!
+    Example:
+   
+      3C <- this card is totally trapped
+     
+      7D <- this card is a different suit from
+              the ones below, but in sequence
+      6H <-]
+              ] <-these cards are in proper sequence
+      5H <-]   and all the same suit, so all
+              ]   three can be picked up together
+      4H <-]   and put on, say, a 7C or, even
+     (last     better, a 7H if one is free
+     in col.)
+   
+
+3. When an Ace becomes "free" it can immediately
+    be put up onto one of the home pile locations.
+    After that, subsequent cards of the same suit
+    can be added to that home pile in sequence.  
+
+4. When a column becomes empty ANY card or sequence
+    of cards which could be moved to the bottom of
+    another column can be moved into the empty 
+    space.  Note, however, that an empty column is 
+    the only column to which a King can be moved.
+    Cards moved to an empty column can later be 
+    moved (following the usual rules), emptying the 
+    column again.  (But a King can only move to
+    another empty column or a home pile).
+                   
+5. The game is over either when all the cards have
+    been put onto the home piles, or there are no
+    cards left in the deck and no more moves are
+    possible.
+    
+
+Playing the Game:
+-------------------------
+
+1. Deal a card by either clicking on the deck
+    or hitting Ctrl+D.
+    
+2. Pick up a card by clicking on it once, then
+    clicking where you want the card to go.
+    
+3. Pick up a sequence of cards by "pinching"
+    the two fingers of the hand onto the
+    top card of the sequence you want to 
+    pick up.
+    
+4. An Ace can go on any free home pile spot
+    available.  Subsequent cards have to be
+    put on the right pile, of course.  Instead
+    of taking a card (including Aces) all the 
+    way up to the home pile you can just 
+    double click on the card and it will be
+    transferred up to the home pile.
+    Valid sequences can be transferred this way
+    too: just click on the top card of the 
+    sequence you want to move to the home pile
+    (it doesn't have to be every card in the
+    sequence) and the cards will be put on the
+    pile in the correct order.         
+    
+5. If an invalid move is attempted the picked up
+    card(s) will be put back where it came from 
+    and you can try a different move.  Also, if
+    you try to pick up an invalid sequence of
+    cards the sequence simply won't be picked up.
+    
+6. The only "undo" you can do is if you've picked
+    up a card and haven't put it down anywhere
+    yet... in this case just click back on the 
+    column it came from and it will be put back
+    there.
+
+
+Notes:
+---------
+
+1. You don't HAVE TO make a move every time it's 
+    possible to do so.  For example, if a Jack is
+    exposed and a 10 is available to put on it,
+    it is not compulsary to make the move, even
+    if they are of the same suit.  Another 
+    example: if the Ace of Hearts is up top and
+    you've exposed the sequence of 2,3,4,5 of 
+    Hearts, you don't have to put all of them 
+    up top.  Sometimes it's better to stop at,
+    say, the 4 so that you have a place to put
+    a 3 later.  This type of decision is where a
+    lot of the strategy comes into play in fact.
+
+2. The first column can sometimes grow ridiculously
+    long, but have faith!  This is normal, and 
+    it's amazing how the right card(s) will allow
+    it to be taken apart again.
+    
+3. You will win more frequently with experience 
+    and thoughtful strategy.  A neophyte may win
+    one game in ten, but with experience it seems
+    the odds of winning are about one in four.    
+
+--- See "Tips and Strategy" for some useful hints! ---
+\

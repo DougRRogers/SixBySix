@@ -1,0 +1,71 @@
+Six by Six Tips...
+----------------------
+
+1. See the 'Short Cut Keys' menu for quick
+    ways to do some things (especially if you
+    aren't crazy about using the mouse for
+    everything...).
+    
+   
+Six by Six Strategy:
+--------------------------
+
+1. Try to avoid sequences with jumbled suits
+    whenever possible.  Sometimes it's necessary
+    to jumble suits to clear a column or 
+    "rescue" and Ace or a low card, but
+    otherwise take every opportunity to 
+    "tidy up" sequences by making them all
+    the same suit.
+    
+2. Before dealing even one card check out the 
+    whole layout and figure out your priorities.
+    These should be:
+       -definitely "rescue" any Aces trapped in
+        the first column, if at all possible.    
+        Make sequences with totally jumbled
+        suits if necessary, because if you don't
+        rescue the Ace now it will be buried!
+       -also consider rescuing low cards (2 or 3)
+        if the Ace is visible elsewhere in the
+        layout and might be exposed before long.
+       -if Aces are visible in other columns it
+        might be worth rescuing them now, though
+        it's not necessarily worth severely
+        jumbled sequences
+       -scan to see if all or almost all cards
+        of any values (say, all the 10's) are 
+        already down.  You may be counting on
+        dealing a 10 later to removed a 
+        bothersome 9 without realizing there
+        are no 10's left in the deck. 
+        
+3. Don't forget when moving cards around that
+    any placed on the first column will probably
+    be buried for quite a while.  It's better to
+    put higher cards there than lower ones.
+    Generally, keep lower cards in the active
+    area and dump higher cards to the first 
+    column when you have the chance.  This is
+    because if low cards are buried in the first 
+    column they will plug up all other cards
+    otherwise ready to go on the home pile.
+
+4. Suggestion (3) doesn't apply though, if you
+    notice a low card of a suit of interest is
+    already buried in the first column.  For
+    example, if the 4 of spades is already
+    buried in the first column, you might
+    as well get the 3 and 2 out of the 
+    active area, or at least don't make
+    exposing them a priority.
+    
+5. DO NOT automatically make all moves which
+    are possible!  Putting all cards in a 
+    sequence straight onto the home pile can
+    be a big mistake, for example, if, by 
+    stopping at the 6 (even though you could
+    put 3,4,5,6,7,8 up top) you now have a
+    place to "park" a 5 from another suit
+    which was sitting on an Ace.  
+\                               
